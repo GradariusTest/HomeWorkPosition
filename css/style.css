@@ -9,6 +9,25 @@
 }
 
 
+
+.main{
+    background: url("../images/background.jpg") no-repeat #3f0002;
+    background-size: contain;
+    border-top: #af2024 solid 40px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+
 /* social-logo */
 .social-logo{
     width: 50px;
@@ -42,18 +61,15 @@
 
 
 
-.main{
-    background: url("../images/background.jpg") no-repeat;
-    border-top: #af2024 solid 40px;
-    padding-top: 20px;
-    position: relative;
-}
 
 
 .video-container{
     max-width: 714px;
     margin: auto;
     background-color: #ffffff;
+    position: relative;
+    top:36px;
+    padding-bottom: 130px;
 }
 
 h1{
@@ -68,18 +84,20 @@ h1{
     margin: auto;
     width: 570px;
     color: #98161b;
-    padding-bottom: 130px;
 }
 
 .video-container__player{
     background-color: #e7e7e7;
     height: 348px;
+    position: relative;
 }
 
-.video-container__player>i{
-    color: #98161b;
-    font-size: 54px;
-    width: 48px;
+.video-container__player>img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -27px;
+    margin-left: -23px;
 }
 
 h3, h3:after, span, p{
