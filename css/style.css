@@ -9,10 +9,10 @@
 }
 
 
-
 .main{
     background: url("../images/background.jpg") no-repeat #3f0002;
-    background-size: contain;
+    background-size: 100% auto;
+
     border-top: #af2024 solid 40px;
     padding-top: 20px;
     position: relative;
